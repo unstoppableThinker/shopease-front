@@ -1,0 +1,118 @@
+{
+	"categories": [
+		{
+			"title": "Categories for Women",
+			"data": [
+				{
+					"title": "Hoodies & Sweatshirt",
+					"description": "Explore more!",
+					"image": "./images/category-women-hoodie.jpg"
+				},
+				{
+					"title": "Coats & Parkas",
+					"description": "Explore more!",
+					"image": "./images/category-women-coats.jpg"
+				},
+				{
+					"title": "Tees & T-Shirt",
+					"description": "Explore more!",
+					"image": "./images/category-women-tshirts.jpg"
+				},
+				{
+					"title": "Shorts",
+					"description": "Explore more!",
+					"image": "./images/category-women-shorts.jpg"
+				}
+			]
+		},
+		{
+			"title": "Categories for Men",
+			"data": [
+				{
+					"title": "Shirts",
+					"description": "Explore more!",
+					"image": "./images/category-men-shirts.jpg"
+				},
+				{
+					"title": "Jeans",
+					"description": "Explore more!",
+					"image": "./images/category-men-jeans.jpg"
+				},
+				{
+					"title": "Hoodies & Sweatshirt",
+					"description": "Explore more!",
+					"image": "./images/category-men-hoodies.jpg"
+				},
+				{
+					"title": "T-Shirts",
+					"description": "Explore more!",
+					"image": "./images/category-men-tshirts.jpg"
+				}
+			]
+		}
+	],
+	"footer": {
+		"items": [
+			{
+				"title": "Need Help",
+				"list": [
+					{
+						"label": "Contact Us",
+						"path": "/contact-us"
+					},
+					{
+						"label": "Track Order",
+						"path": "/track-order"
+					},
+					{
+						"label": "Returns and Refunds",
+						"path": "/refunds"
+					},
+					{
+						"label": "FAQ's",
+						"path": "/faq"
+					},
+					{
+						"label": "Career",
+						"path": "/career"
+					}
+				]
+			},
+			{
+				"title": "Company",
+				"list": [
+					{
+						"label": "About Us",
+						"path": "/about"
+					},
+					{
+						"label": "Media",
+						"path": "/media"
+					}
+				]
+			},
+			{
+				"title": "More Info",
+				"list": [
+					{
+						"label": "Term and Conditions",
+						"path": "/terms-conditions"
+					},
+					{
+						"label": "Privacy Policy",
+						"path": "/policies"
+					},
+					{
+						"label": "Shipping Policy",
+						"path": "/policies"
+					}
+				]
+			},
+			{
+				"title": "Location",
+				"description": "Location Country"
+			}
+		],
+		"copyright": "Copyright 2024 ShopWell"
+	}
+}
