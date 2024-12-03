@@ -1,11 +1,17 @@
 import React from 'react'
-import Jeans from '../../assets/img/jeans.jpg'
+import ArrowIcon from '../common/ArrowIcon';
 
-const Card = ({ imagePath, title }) => {
+const Card = ({ imagePath, title, description, actionArrow, height, width }) => {
   return (
-    <div className='flex flex-col p-8'>
-      <img src={imagePath} className='max-h-[260px] max-w-[240px] bg-cover bg-center border rounded hover:scale-105 cursor-pointer' alt="jeans" />
-			<p className='text-[16px] p-[5px]'>{title}</p>
+    <div className='flex flex-col p-6'>
+      <img src={imagePath} className={`h-[${height ? height: '240px'}] max-w-[${width ? width: '200px'}] bg-cover bg-center border rounded hover:scale-105 cursor-pointer`} alt="jeans" />
+      <div className="flex justify-between items-center">
+        <div className="flex flex-col">
+          <p className='text-[16px] p-1'>{title}</p>
+          {description && <p className='text-[12px] px-1 text-gray-600'>{description}</p>}
+        </div>
+        {actionArrow && <span className='cursor-pointer pr-2 items-center'><ArrowIcon /></span>}
+      </div>
     </div>
   )
 }
