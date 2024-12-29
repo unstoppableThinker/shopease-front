@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import RangeSlider from 'react-range-slider-input';
 import 'react-range-slider-input/dist/style.css';
+import './PriceFilter.css';
 
 const PriceFilter = () => {
 	const [range, setRange] = useState({
@@ -11,7 +12,7 @@ const PriceFilter = () => {
   return (
     <div>
 			<p className='text-[16px] text-black mt-5'>Price</p>
-			<RangeSlider min={0} max={400} defaultValue={[range.min, range.max]} onInput={(values) => setRange({
+			<RangeSlider className={'custom-range-slider'} min={0} max={400} defaultValue={[range.min, range.max]} onInput={(values) => setRange({
 				min: values[0],
 				max: values[1]
 			})} />
